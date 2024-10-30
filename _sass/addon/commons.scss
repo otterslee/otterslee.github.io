@@ -691,6 +691,9 @@ $btn-mb: 0.5rem;
   z-index: 99;
   background: var(--sidebar-bg);
   border-right: 1px solid var(--sidebar-border-color);
+  background: url('/assets/img/back4.jpg'); //추가
+  background-size: 130% 100%; //추가
+  background-position: center; //추가
 
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
@@ -705,6 +708,8 @@ $btn-mb: 0.5rem;
     &:hover {
       color: var(--sidebar-active-color);
     }
+
+
   }
 
   a {
@@ -718,6 +723,7 @@ $btn-mb: 0.5rem;
     overflow: hidden;
     box-shadow: var(--avatar-border-color) 0 0 0 2px;
     transform: translateZ(0); /* fixed the zoom in Safari */
+    margin-left: 2rem; //추가
 
     img {
       transition: transform 0.5s;
@@ -745,18 +751,21 @@ $btn-mb: 0.5rem;
     letter-spacing: 0.25px;
     margin-top: 1.25rem;
     margin-bottom: 0.5rem;
+    margin-left: 1.7rem; //추가
 
     a {
       @extend %clickable-transition;
       @extend %sidebar-link-hover;
 
       color: var(--site-title-color);
+      // color: rgba(254, 254, 254, 99%); //추가
     }
   }
 
   .site-subtitle {
     font-size: 95%;
     color: var(--site-subtitle-color);
+    color: rgba(254, 254, 254, 99%); //추가
     margin-top: 0.25rem;
     word-spacing: 1px;
     -webkit-user-select: none;
@@ -781,6 +790,7 @@ $btn-mb: 0.5rem;
         align-items: center;
         border-radius: 0.75rem;
         font-weight: 600;
+        color: rgba(254, 254, 254, 99%); //추가
 
         &:hover {
           background-color: var(--sidebar-hover-bg);
@@ -801,6 +811,7 @@ $btn-mb: 0.5rem;
       &.active {
         .nav-link {
           color: var(--sidebar-active-color);
+          color: rgba(254, 254, 254, 99%); //추가
           background-color: var(--sidebar-hover-bg);
 
           span {
