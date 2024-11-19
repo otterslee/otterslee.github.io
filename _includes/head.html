@@ -104,4 +104,10 @@
   {% endunless %}
 
   {% include metadata-hook.html %}
+
+
+  <!-- 수식 쓰기 추가함 -->
+  {% if page.use_math %}
+    {% include mathjax_support.html %}
+  {% endif %}
 </head>

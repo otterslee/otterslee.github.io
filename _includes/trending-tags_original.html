@@ -35,10 +35,7 @@
 
 {% if trending_tags.size > 0 %}
   <section>
-    <!-- 제목을 "Recent Post" 형식으로 변경 -->
-    <div class="panel-heading">
-      <span style="color:#da8b8b">❤&ensp;</span>Tags
-    </div>
+    <h2 class="panel-heading">{{- site.data.locales[include.lang].panel.trending_tags -}}</h2>
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       {% for tag_name in trending_tags %}
         {% assign url = tag_name | slugify | url_encode | prepend: '/tags/' | append: '/' %}

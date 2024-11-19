@@ -691,7 +691,7 @@ $btn-mb: 0.5rem;
   z-index: 99;
   background: var(--sidebar-bg);
   border-right: 1px solid var(--sidebar-border-color);
-  background: url('/assets/img/back4.jpg'); //추가
+  background: url('/assets/img/grey_background.png'); //추가
   background-size: 130% 100%; //추가
   background-position: center; //추가
 
@@ -767,14 +767,18 @@ $btn-mb: 0.5rem;
       @extend %sidebar-link-hover;
 
       color: var(--site-title-color);
-      color: rgba(52, 122, 187, 0.842); //추가
+      //color: rgba(127, 127, 127, 1);
+      //color: rgba(249, 227, 246, 1);
+      //color: rgba(185, 255, 202, 1);
+      //color: rgba(52, 122, 187, 0.842); //추가
     }
   }
 
   .site-subtitle {
     font-size: 95%;
     color: var(--site-subtitle-color);
-    color: rgba(254, 254, 254, 99%); //추가
+    color: rgba(0, 0, 0, 99%); //추가
+    //color: rgba(254, 254, 254, 99%); //추가
     margin-top: 0.25rem;
     word-spacing: 1px;
     -webkit-user-select: none;
@@ -799,7 +803,8 @@ $btn-mb: 0.5rem;
         align-items: center;
         border-radius: 0.75rem;
         font-weight: 600;
-        color: rgba(254, 254, 254, 99%); //추가
+        //color: rgba(0, 0, 0, 99%); //추가
+        //color: rgba(254, 254, 254, 99%); //추가
 
         &:hover {
           background-color: var(--sidebar-hover-bg);
@@ -820,6 +825,7 @@ $btn-mb: 0.5rem;
       &.active {
         .nav-link {
           color: var(--sidebar-active-color);
+          //color: rgba(0, 0, 0, 99%); //추가
           color: rgba(254, 254, 254, 99%); //추가
           background-color: var(--sidebar-hover-bg);
 

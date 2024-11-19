@@ -16,7 +16,8 @@
   --label-color: #585858;
   --blockquote-border-color: #eeeeee;
   --blockquote-text-color: #757575;
-  --link-color: #0056b2;
+  --link-color: #9d00b2;
+  //--link-color: #0056b2;
   --link-underline-color: #dee2e6;
   --button-bg: #ffffff;
   --btn-border-color: #e9ecef;
@@ -24,7 +25,8 @@
   --btn-backtotop-border-color: #f1f1f1;
   --btn-box-shadow: #eaeaea;
   --checkbox-color: #c5c5c5;
-  --checkbox-checked-color: #07a8f7;
+  --checkbox-checked-color: #ff72e1;
+  //--checkbox-checked-color: #07a8f7;
   --img-bg: radial-gradient(
     circle,
     rgb(255, 255, 255) 0%,
@@ -62,9 +64,11 @@
   --btn-paginator-hover-color: var(--sidebar-bg);
 
   /* Posts */
-  --toc-highlight: #0550ae;
+  --toc-highlight: #ac008fd5;
+  //--toc-highlight: #0550ae;
   --btn-share-color: gray;
-  --btn-share-hover-color: #0d6efd;
+  --btn-share-hover-color: #bd0686;
+  //--btn-share-hover-color: #0d6efd;
   --card-bg: white;
   --card-hovor-bg: #e2e2e2;
   --card-shadow: rgb(104, 104, 104, 0.05) 0 2px 6px 0,
@@ -80,11 +84,12 @@
   --prompt-tip-bg: rgb(123, 247, 144, 0.2);
   --prompt-tip-icon-color: #03b303;
   --prompt-info-bg: #e1f5fe;
-  --prompt-info-icon-color: #0070cb;
+  --prompt-info-icon-color: #e94dc7;
+  //--prompt-info-icon-color: #0070cb;
   --prompt-warning-bg: rgb(255, 243, 205);
   --prompt-warning-icon-color: #ef9c03;
   --prompt-danger-bg: rgb(248, 215, 218, 0.56);
-  --prompt-danger-icon-color: #df3c30;
+  --prompt-danger-icon-color: #bb1d79;
 
   /* Tags */
   --tag-border: #dee2e6;
